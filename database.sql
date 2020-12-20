@@ -1,3 +1,4 @@
+<!-- select basics
 83149300
 
 Denmark	5822763
@@ -11,7 +12,8 @@ Laos	236800
 Romania	238391
 Uganda	241550
 United Kingdom	242900
-
+                              
+<!-- SELECT Quiz
 SELECT name, population
   FROM world
  WHERE population BETWEEN 1000000 AND 1250000
@@ -38,6 +40,7 @@ SELECT name, population/area
   FROM world
  WHERE name IN ('China', 'Nigeria', 'France', 'Australia')
 
+<!-- SELECT from WORLD Tutorial
 name	continent	population
 Afghanistan	Asia	32225560
 Albania	Europe	2845955
@@ -99,3 +102,50 @@ Indonesia
 Nigeria
 Pakistan
 United States
+
+
+name	GDP/population
+Brazil	9721.37
+China	8724.3064
+India	1891.7811
+Indonesia	3804.7723
+Nigeria	1822.8862
+Pakistan	1377.0363
+United States	59121.1921
+
+name	population/10..
+Argentina	44.9387
+Bolivia	11.4699
+Brazil	211.4426
+Chile	19.1072
+Colombia	49.3957
+Ecuador	17.4729
+Guyana	0.7828
+Paraguay	7.2527
+Peru	32.1314
+Saint Vincent and the Grenadines	0.1106
+Suriname	0.5814
+Uruguay	3.5186
+Venezuela	32.2195
+France, Germany, Italy
+
+name	population
+France	67076000
+Germany	83149300
+Italy	60238522
+
+name
+United Arab Emirates
+United Kingdom
+United States
+
+name	population	area
+Australia	25690023	7692024
+Brazil	211442625	8515767
+Canada	38007166	9984670
+China	1402378640	9596961
+India	1361503224	3166414
+Indonesia	266911900	1904569
+Russia	146745098	17125242
+United States	329583916	9826675
+
